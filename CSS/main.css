@@ -18,12 +18,25 @@ body{
           font-family: Bradley Hand, cursive;
           font-size: 150%;
           background-color: #1b3c7e;
-          padding: 0.5%;
+          padding: 0.5% 1.5% 0.5% 1.5%;
           border-radius: 10px;
           transition: transform .2s;
 }
 
 #about:hover{
+    transform: scale(1.2);
+}
+
+#connect{
+      position: absolute;
+           top: 10px;
+           right: 20px;
+          font-family: serif;
+          font-size: 200%;
+          transition: transform .2s;
+}
+
+#connect:hover{
     transform: scale(1.2);
 }
 
@@ -50,7 +63,7 @@ body{
           font-family: Bradley Hand, cursive;
           font-size: 150%;
           background-color: #1b3c7e;
-          padding: 0.5%;
+          padding: 0.5% 1.5% 0.5% 1.5%;
           border-radius: 10px;
           transition: transform .2s;
 }
@@ -117,7 +130,6 @@ a:hover{
 }
 
 #me{
-
     position: absolute;
     top: 10%;
     left: 50%;
