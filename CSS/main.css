@@ -153,9 +153,9 @@ img{
 	width: 100%;
 	height: 100%;
 }
+
 body{
 	background-color: #1b3c7e;
-
 }
 }
 
@@ -163,6 +163,23 @@ body{
 body{
   overflow: scroll;
   background-color: #1b3c7e;
+}
+
+img:hover{
+    transform: scale(1);
+}
+
+#intro{
+  left: 5%;
+}
+
+#intro1{
+  left: 0%;
+}
+
+#hobby{
+  left: 5%;
+  top: 55%;
 }
 
 #about{
