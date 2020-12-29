@@ -159,5 +159,33 @@ body{
 }
 }
 
+@media only screen and (max-width: 768px){
+body{
+  overflow: scroll;
+  background-color: #1b3c7e;
+}
+
+#about{
+  position: absolute;
+  top: 74%;
+          left: 10%;
+}
+
+#blog{
+  position: absolute;
+  top: 80%;
+          left: 10%;
+}
+
+#dance{
+  position: absolute;
+  top: 86%;
+          left: 10%;
+}
+
+}
+
+
+
 
 
