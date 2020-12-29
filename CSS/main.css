@@ -169,12 +169,19 @@ img:hover{
     transform: scale(1);
 }
 
+#me{
+  left: 45%;
+  height: 190px;
+  width: 190px;
+}
+
 #intro{
   left: 5%;
 }
 
 #intro1{
-  left: 0%;
+  left: 2%;
+  top: 51%;
 }
 
 #hobby{
