@@ -20,6 +20,96 @@ body{
     font-size: 250%;
 }
 
+#env{
+	overflow: hidden;
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    font-size: 25px;
+    transition: transform .2s;
+}
+
+#env:hover{
+	transform: scale(1.2);
+}
+
+#connect1{
+	overflow: hidden;
+    position: absolute;
+    top: 34.5%;
+    left: 25%;
+    font-size: 150%;
+    color: #ffeccc;
+}
+
+#connect2{
+	overflow: hidden;
+    position: absolute;
+    top: 42.5%;
+    left: 25%;
+    font-size: 150%;
+    color: #ffeccc;
+}
+
+#connect3{
+	overflow: hidden;
+    position: absolute;
+    top: 50.5%;
+    left: 25%;
+    font-size: 150%;
+    color: #ffeccc;
+}
+
+#connect4{
+	overflow: hidden;
+    position: absolute;
+    top: 58.5%;
+    left: 25%;
+    font-size: 150%;
+    color: #ffeccc;
+}
+
+#connect5{
+	overflow: hidden;
+    position: absolute;
+    top: 66.5%;
+    left: 25%;
+    font-size: 150%;
+    color: #ffeccc;
+}
+
+#ino{
+	overflow: hidden;
+    position: absolute;
+    top: 43%;
+    left: 21%;
+    font-size: 25px;
+}
+
+#tele{
+	overflow: hidden;
+    position: absolute;
+    top: 51%;
+    left: 21%;
+    font-size: 25px;
+}
+
+#insta{
+	overflow: hidden;
+    position: absolute;
+    top: 59%;
+    left: 21%;
+    font-size: 25px;
+}
+
+#fb{
+	overflow: hidden;
+    position: absolute;
+    top: 67%;
+    left: 21%;
+    font-size: 25px;
+}
+
 #home{
       position: absolute;
            top: 12px;
@@ -33,14 +123,15 @@ body{
     transform: scale(1.2);
 }
 
-a{
+
+#only{
    overflow: hidden;
    text-decoration: none;
    color: #ffcccc;
    transition: .2s;
 }
 
-a:hover{
+#only:hover{
     overflow: hidden;
     color: hotpink;
 }
