@@ -141,7 +141,8 @@ a:hover{
           -webkit-box-shadow: 5px 5px 5px 5px #ccc;
           -khtml-box-shadow: 5px 5px 5px 5px #ccc;
 }
-img : hover{
+
+img:hover{
     transform: scale(1.2);
 }
 
